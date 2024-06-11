@@ -1,0 +1,3 @@
+restaLaLista :: [Int] -> Int
+restaLaLista [] = 0
+restaLaLista (x:xs) = x - sumaLaLista xs
